@@ -50,9 +50,6 @@
             android:name=".view.input.InputDataActivity"
             android:exported="true" />
         <activity
-            android:name=".view.jenis.JenisSampahActivity"
-            android:exported="true" />
-        <activity
             android:name=".view.main.MainActivity"
             android:exported="true" />
 

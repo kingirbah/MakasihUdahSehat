@@ -16,9 +16,10 @@ class InputDataViewModel(application: Application) : AndroidViewModel(applicatio
 
     fun addDataSampah(
         nama_pengguna: String,
-        jenis_sampah: String,
-        berat: Int,
-        harga: Int,
+        jenis_keluhan: String,
+        usia: Int,
+        no_telp: String,
+        keluhan: String,
         tanggal: String,
         alamat: String,
         catatan: String
@@ -26,9 +27,10 @@ class InputDataViewModel(application: Application) : AndroidViewModel(applicatio
         Completable.fromAction {
             val modelDatabase = ModelDatabase(
                 namaPengguna = nama_pengguna,
-                jenisSampah = jenis_sampah,
-                berat = berat,
-                harga = harga,
+                jenisKeluhan = jenis_keluhan,
+                usia = usia,
+                noTelp = no_telp,
+                keluhan = keluhan,
                 tanggal = tanggal,
                 alamat = alamat,
                 catatan = catatan

@@ -1,36 +1,47 @@
-# Bank-Sampah
-Membuat Aplikasi Bank Sampah
+# MakasihUdahSehat
 
-# Tutorial Build with Android Studio
-https://youtu.be/3ogycbzUy8Y
+Final Project for Mobile Programming Course
 
-# Tutorial Build with Step by Step
-https://rivaldi48.blogspot.com/2021/12/tutorial-membuat-aplikasi-bank-sampah-dengan-android-studio.html
+## Application Description
+MakasihUdahSehat is an Android-based health consultation application that allows users to consult with doctors online. This application is built using Kotlin and Java with the Android Studio framework.
 
-<img src="https://blogger.googleusercontent.com/img/a/AVvXsEiZD0EB5ueAk-m827elL2fsG2-9wemIa-JAVIbZIwGHGFnKV7w9nDirRsMTCnBDD1IejcnSkc0S1o-0H5u1113oYYMywG7UYkmr1Y6qLQqLj_8Q0xVgrhnELNo_-3dADWcLCEB_P2izJ9OXOu5ySMdaJZb9UpITN1P8tJ67766alZsjmM71S13OGm7Qew=s1280" data-canonical-src="https://blogger.googleusercontent.com/img/a/AVvXsEiZD0EB5ueAk-m827elL2fsG2-9wemIa-JAVIbZIwGHGFnKV7w9nDirRsMTCnBDD1IejcnSkc0S1o-0H5u1113oYYMywG7UYkmr1Y6qLQqLj_8Q0xVgrhnELNo_-3dADWcLCEB_P2izJ9OXOu5ySMdaJZb9UpITN1P8tJ67766alZsjmM71S13OGm7Qew=s1280" style="max-width:100%;">
+## Main Features
+- User registration and login
+- Selection of health services
+- Consultation form with patient data input
+- Consultation history
+- Local database integration
 
-****If you use the Source Code, please make sure to credit and backlink to [kingirbah Rivaldi](https://rivaldi48.blogspot.com/)***
+## Prerequisites
+- Android Studio (latest version recommended)
+- JDK 8 or higher
+- Android SDK with API level 21 or higher
+- Git
 
-## 👇 Click For Support Me :
-<a href="https://sociabuzz.com/kingirbahrvldi_/donate"> 
-<img src="https://github.com/kingirbahRivaldi/kingirbahRivaldi/blob/master/Support%20Here.png" width="200" height="200"></a>
+## Installation and Setup
+1. Clone this repository:
+   ```
+   git clone https://github.com/kingirbah/MakasihUdahSehat.git
+   ```
 
-## 📄 License
+2. Open Android Studio
 
-```
-Copyright (C) kingirbah Rivaldi
+3. Select "Open an existing Android Studio project"
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
+4. Navigate to the cloned repository folder and select it
 
-    http://www.apache.org/licenses/LICENSE-2.0
+5. Wait for Gradle to sync the project
 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+6. Connect an Android device or start an emulator
 
-```
+7. Click "Run" (green play button) to build and install the app
+
+## Technologies Used
+- Android Studio
+- Kotlin & Java
+- Room Database
+- Gradle
+
+## License
+Licensed under the Apache License, Version 2.0
 

@@ -19,7 +19,6 @@ import com.kingirbah.makasihudahsehat.R
 import com.kingirbah.makasihudahsehat.dokter
 import com.kingirbah.makasihudahsehat.view.history.RiwayatActivity
 import com.kingirbah.makasihudahsehat.view.input.InputDataActivity
-import com.kingirbah.makasihudahsehat.view.jenis.JenisSampahActivity
 import im.delight.android.location.SimpleLocation
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.content_main.*

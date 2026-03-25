@@ -9,6 +9,6 @@ dependencyResolutionManagement {
         }
     }
 }
-rootProject.name = "Bank Sampah"
+rootProject.name = "MakasihUdahSehat"
 include ':app'
 
