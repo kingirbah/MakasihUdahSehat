@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.kingirbah.makasihudahsehat">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.makasihudahsehat"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="s">
+        <activity
+            android:name=".dokter"
+            android:exported="false" />
+        <activity
+            android:name=".konsul2"
+            android:exported="false" />
+        <activity
+            android:name=".konsul"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LupaPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Regis"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".view.history.RiwayatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.input.InputDataActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.jenis.JenisSampahActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.main.MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroud"
+    tools:context=".konsul">
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="9dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FORMULIR KELUHAN PASIEN"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@color/primary"
+        android:textSize="29dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Isi data di bawah ini dengan benar"
+        android:fontFamily="@font/poppinsmedium"
+        android:textSize="15dp"
+        android:layout_marginStart="70dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="35dp">
+
+        <EditText
+            android:id="@+id/namakeluhan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsregular"
+            android:hint="Nama Lengkap"
+            android:paddingLeft="8dp"
+            android:maxLines="1"
+            android:paddingTop="5dp"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/usiakeluhan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppinsregular"
+            android:hint="Usia"
+            android:maxLines="1"
+            android:inputType="number"
+            android:imeOptions="actionNext"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/telpkeluhan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:inputType="number"
+            android:imeOptions="actionNext"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppinsregular"
+            android:hint="Nomor Telp"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/keluhan"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppinsregular"
+            android:hint="Keluhan"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:textSize="18dp" />
+
+
+        <Button
+            android:id="@+id/btnsave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/primary"
+            android:fontFamily="@font/poppinssemibold"
+            android:text="Next" />
+
+    </LinearLayout>
+
+</LinearLayout>
