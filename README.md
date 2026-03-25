@@ -1,47 +1,73 @@
 # MakasihUdahSehat
 
-Final Project for Mobile Programming Course
+> Final Project — Mobile Programming Course
 
-## Application Description
-MakasihUdahSehat is an Android-based health consultation application that allows users to consult with doctors online. This application is built using Kotlin and Java with the Android Studio framework.
+**MakasihUdahSehat** is an Android-based health consultation application that enables users to consult with doctors online, manage their health history, and access various health services — all from their smartphone.
 
-## Main Features
-- User registration and login
-- Selection of health services
-- Consultation form with patient data input
-- Consultation history
-- Local database integration
+---
+
+## Features
+
+| Feature | Description |
+|---|---|
+| Authentication | User registration and login |
+| Health Services | Browse and select available health services |
+| Consultation Form | Fill in patient data and submit consultation requests |
+| Consultation History | View past consultations |
+| Local Database | Offline data storage using Room Database |
+
+---
+
+## Tech Stack
+
+- **Language:** Kotlin & Java
+- **IDE:** Android Studio
+- **Database:** Room Database (SQLite)
+- **Build System:** Gradle
+- **Min SDK:** API Level 21 (Android 5.0 Lollipop)
+
+---
 
 ## Prerequisites
-- Android Studio (latest version recommended)
+
+Before running this project, make sure you have:
+
+- [Android Studio](https://developer.android.com/studio) (latest version recommended)
 - JDK 8 or higher
-- Android SDK with API level 21 or higher
+- Android SDK with API Level 21+
 - Git
 
-## Installation and Setup
-1. Clone this repository:
-   ```
+---
+
+## Getting Started
+
+1. **Clone the repository**
+   ```bash
    git clone https://github.com/kingirbah/MakasihUdahSehat.git
    ```
 
-2. Open Android Studio
+2. **Open in Android Studio**
+   - Launch Android Studio
+   - Select **"Open an existing Android Studio project"**
+   - Navigate to the cloned folder and open it
 
-3. Select "Open an existing Android Studio project"
+3. **Sync the project**
+   - Wait for Gradle to finish syncing
+   - Resolve any missing SDK/dependencies if prompted
 
-4. Navigate to the cloned repository folder and select it
+4. **Run the app**
+   - Connect a physical Android device or start an emulator
+   - Click the **Run** button to build and install the app
 
-5. Wait for Gradle to sync the project
+---
 
-6. Connect an Android device or start an emulator
+## Developer
 
-7. Click "Run" (green play button) to build and install the app
+| | |
+|---|---|
+| **Name** | Naufal Irbah Rabbani |
+| **Year** | 2023 |
+| **Institution** | Institut Teknologi PLN |
+| **Course** | Mobile Programming |
 
-## Technologies Used
-- Android Studio
-- Kotlin & Java
-- Room Database
-- Gradle
-
-## License
-Licensed under the Apache License, Version 2.0
-
+---
